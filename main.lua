@@ -2,7 +2,7 @@
 --[[
 --  This is our newImage function
 --  we pass it the directory of the image surrounded by quotation marks
---  as well as the x and y coordinates of the image, with 1, 1 being at
+--  as well as the x and y coordinates of the image, with (1, 1) being at
 --  the top left of the screen.
 --]]
 function newImage(dir, x, y)
@@ -12,7 +12,7 @@ function newImage(dir, x, y)
     --more lenient.
     --
     --The 'local' keyword tells lua that this variable (which we
-    --named t) shoul only be accessed inside this function, and 
+    --named t) should only be accessed inside this function, and 
     --the {} is the empty table.
     local t = {}
 
